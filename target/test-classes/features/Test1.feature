@@ -1,10 +1,12 @@
 Feature: verify sorting hat
+  @wip
   Scenario: sorting hat
     Given user goes to  BaseUri
     When user sends a Get request
     Then verify status code 200
-    Then  verify that the contentType is "application/json;charset=utf-8"
-  Then body contains  one of "Gryffindor", "Ravenclaw", "Slytherin", "Hufflepuff"
+    Then  verify that the contentType is "application/json; charset=utf-8"
+  Then body contains one of
+  | "Gryffindor" | "Ravenclaw" | "Slytherin" | "Hufflepuff"|
 
 
  # Verify sorting hat

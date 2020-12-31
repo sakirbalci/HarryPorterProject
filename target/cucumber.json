@@ -1,0 +1,297 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-09-22T21:30:20.507Z",
+        "line": 4,
+        "name": "Verify name search",
+        "description": "",
+        "id": "verify-name-search;verify-name-search",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 319702399,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user goes to  BaseUri",
+            "match": {
+              "location": "Tests.user_goes_to_BaseUri()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1709691900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user sends a get request to \"/characters\" endpoint",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"/characters\"",
+                  "offset": 32
+                }
+              ],
+              "location": "Tests.the_user_sends_a_get_request_to_Characters_endpoint(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1328401,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "verify status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 19
+                }
+              ],
+              "location": "Tests.verify_status_code(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 521400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "verify that the contentType is \"application/json; charset\u003dutf-8\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"application/json; charset\u003dutf-8\"",
+                  "offset": 31
+                }
+              ],
+              "location": "Tests.verify_that_the_contentType_is(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.ClassCastException: class java.util.ArrayList cannot be cast to class java.util.Map (java.util.ArrayList and java.util.Map are in module java.base of loader \u0027bootstrap\u0027)\r\n\tat StepDefinitions.Tests.the_user_sends_a_get_request_with_name(Tests.java:138)\r\n\tat ✽.the user sends a get request with name \"Harry Potter\"(file:src/test/resources/features/Test7.feature:9)\r\n",
+              "duration": 1011575700,
+              "status": "failed"
+            },
+            "line": 9,
+            "name": "the user sends a get request with name \"Harry Potter\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Harry Potter\"",
+                  "offset": 39
+                }
+              ],
+              "location": "Tests.the_user_sends_a_get_request_with_name(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 525799,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "verify status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 19
+                }
+              ],
+              "location": "Tests.verify_status_code(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 429400,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "verify that the contentType is \"application/json; charset\u003dutf-8\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"application/json; charset\u003dutf-8\"",
+                  "offset": 31
+                }
+              ],
+              "location": "Tests.verify_that_the_contentType_is(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 433199,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "verify name \"Harry Potter\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Harry Potter\"",
+                  "offset": 12
+                }
+              ],
+              "location": "Tests.verify_name(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 448500,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "the user sends a get request to \"/characters\" endpoint",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"/characters\"",
+                  "offset": 32
+                }
+              ],
+              "location": "Tests.the_user_sends_a_get_request_to_Characters_endpoint(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 378300,
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "verify status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 19
+                }
+              ],
+              "location": "Tests.verify_status_code(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 419400,
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "verify that the contentType is \"application/json; charset\u003dutf-8\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"application/json; charset\u003dutf-8\"",
+                  "offset": 31
+                }
+              ],
+              "location": "Tests.verify_that_the_contentType_is(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 386100,
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "the user sends a get request with name \"Marry Potter\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Marry Potter\"",
+                  "offset": 39
+                }
+              ],
+              "location": "Tests.the_user_sends_a_get_request_with_name(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 358300,
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "verify status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 19
+                }
+              ],
+              "location": "Tests.verify_status_code(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 387701,
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "verify that the contentType is \"application/json; charset\u003dutf-8\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"application/json; charset\u003dutf-8\"",
+                  "offset": 31
+                }
+              ],
+              "location": "Tests.verify_that_the_contentType_is(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 382100,
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "verify name is empty",
+            "match": {
+              "location": "Tests.verify_name_is_empty()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test7"
+          }
+        ]
+      }
+    ],
+    "name": "Verify name search",
+    "description": "",
+    "id": "verify-name-search",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Test7.feature",
+    "tags": [
+      {
+        "name": "@Test7",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
