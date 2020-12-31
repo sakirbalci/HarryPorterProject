@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f120ad24-2721-4f25-9b3a-1489ff1b06ba" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/StepDefinitions/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -174,9 +175,29 @@
       <option name="presentableId" value="Default" />
       <updated>1597870016681</updated>
     </task>
+    <task id="LOCAL-00001" summary="first test">
+      <created>1609433729249</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1609433729249</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first test" />
+    <option name="LAST_COMMIT_MESSAGE" value="first test" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="395" y="0" key="CommitChangelistDialog2" timestamp="1609433727913">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="395" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1609433727913" />
+    <state x="147" y="64" key="DiffContextDialog" timestamp="1609433711628">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="147" y="64" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1609433711628" />
     <state width="1493" height="229" key="GridCell.Tab.0.bottom" timestamp="1609433146284">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -209,5 +230,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="179" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1600810268496" />
+    <state x="361" y="132" key="Vcs.Push.Dialog.v2" timestamp="1609433731937">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="132" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1609433731937" />
   </component>
 </project>
